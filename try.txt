@@ -1,5 +1,8 @@
 https://dev.to/damiisdandy/create-infinite-auto-scroll-animation-with-pure-css-2p6j
 https://verpex.com/blog/website-tips/how-to-create-a-css-only-infinite-scroll-animation
 
+https://dev.to/codeclown/styling-a-native-date-input-into-a-custom-no-library-datepicker-2in
+https://stackoverflow.com/questions/14946091/are-there-any-style-options-for-the-html5-date-picker
+
 
 https://globalbustours.com/dubai/big-bus-dubai-hop-on-hop-off-tour-with-dhow-cruise
