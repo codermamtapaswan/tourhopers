@@ -528,12 +528,12 @@ header nav ul {
     background: var(--white);
     width: 85%;
     height: 100%;
-    transform: translateY(-70px);
+    transform: translateY(-100px);
     transition: var(--transition);
   }
 
   .search-bar-show {
-    transform: translateY(0px);
+    transform: translateY(-30px);
     transition: var(--transition);
   }
 }
@@ -649,7 +649,7 @@ header nav ul {
 }
 
 /* Blog sidebar_____________start */
-.sidebar:has(.checkout-box) {
+.sidebar:has(.checkout-box, .th-sep) {
   border: 1px solid var(--bd-color);
   padding: 20px;
   border-radius: var(--rad-2);
@@ -771,7 +771,7 @@ table thead th {
 }
 
 /* Notes | Sources | Also Read */
-:is(.th-block-note, .th-block-source, .th-block-also-read) {
+:is(.th-block-note, .th-block-source, .th-block-also-read, .th-auth-card) {
   border: 1px solid var(--bd-color);
   border-radius: var(--rad-2);
 }
@@ -805,20 +805,20 @@ table thead th {
 /* # All Author  ||  Author Single || category Page
   =================================================*/
 
-.authors-page .auth-img::before {
+.th-authors-page .auth-img::before {
   background: var(--pc);
 }
 
-.authors-page .auth-img::after {
+.th-authors-page .auth-img::after {
   background: var(--pc);
 }
 
-.authors-page .auth-img img {
+.th-authors-page .auth-img img {
   border-right: 4px solid var(--pc);
   border-bottom: 4px solid var(--pc);
 }
 
-.authors-page .th-card-content {
+.th-authors-page .th-card-content {
   background: var(--sc);
   border-radius: var(--rad-2);
 }
@@ -827,8 +827,8 @@ table thead th {
   border-top: unset;
 }
 
-.author-acrhive-page .sidebar .th-auth-card {
-  background: var(--sc);
+.th-author-acrhive-page .sidebar .th-auth-card {
+  background: var(--bd-color);
   border-radius: var(--rad-2);
 }
 
@@ -967,7 +967,7 @@ footer .hero-form {
   .th-con-hero,
   .blog-header {
     border-radius: 0 0 var(--rad-1) var(--rad-1);
-    padding-block: 25px;
+    padding: 25px 20px;
   }
 
 
